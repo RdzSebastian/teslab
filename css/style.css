@@ -1680,6 +1680,20 @@ ul {
   color: #999999;
 }
 
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: black;
+}
+
+@media (min-width: 600px) {
+  /* line 1094, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_blog.scss */
+  .navbar-fixed {
+    margin-top: : 20px;
+  }
+}
+
 /* line 1175, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_blog.scss */
 .single-post-area .blog-author {
   padding: 40px 30px;
@@ -2111,20 +2125,22 @@ ul {
 
 /* line 9, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .main_menu .navbar-brand {
-  padding-top: 0rem;
+  padding: 0px;
   padding-bottom: 0px;
 }
 
-/* line 14, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
-.main_menu .navbar {
-  padding: 0px;
+@media (max-width: 991px) {
+  /* line 273, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
+  .main_menu .navbar {
+    padding: 18px;
+  }
 }
 
 /* line 20, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
-  color: #000;
+  color: white;
   font-size: 15px;
-  padding: 36px 23px;
+  padding: 28px 23px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   line-height: 12px;
@@ -2220,7 +2236,7 @@ ul {
 
 /* line 107, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
 .main_menu a i {
-  color: #000;
+  color: white;
   position: relative;
   z-index: 1;
   font-size: 15px;
@@ -2358,6 +2374,14 @@ ul {
     display: inline-block;
     top: 0;
   }
+
+  @media (max-width: 991px) {
+    /* line 273, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
+    .navbar-brand img {
+      padding-top: 18px;
+    }
+  }
+
   /* line 255, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
     border-color: transparent;
@@ -2366,7 +2390,7 @@ ul {
   }
   /* line 262, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
   .menu_icon i {
-    color: #000;
+    color: white;
   }
   /* line 267, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
   .main_menu a i {
