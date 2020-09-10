@@ -70,6 +70,18 @@ input:focus {
   }
 }
 
+/* line 24, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_common.scss */
+.section_padding_contact {
+  padding: 30px 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 24, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_common.scss */
+  .section_padding_contact {
+    padding: 30px 0px;
+  }
+}
+
 /* line 44, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_common.scss */
 .single_padding_top {
   padding-top: 140px !important;
@@ -3105,19 +3117,27 @@ ul {
 /*************** subscribe now **********************/
 /* line 2, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_subscribe_area.scss */
 .subscribe_area {
-  background-image: url("../img/subscribe_area.png");
+  background-image: url("../img/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.subscribe_area .subscribe_area_text {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
 }
 
 /* line 4, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_subscribe_area.scss */
 .subscribe_area h5 {
   font-size: 14px;
   font-weight: 400;
-  color: #ff3368;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-left: 1rem!important;
 }
 
 /* line 11, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_subscribe_area.scss */
@@ -3125,7 +3145,13 @@ ul {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  margin: 35px 0 67px;
+  margin: 35px 0 15px;
+  color: white;
+}
+
+.subscribe_area h3 {
+  margin: 35px 0 15px;
+  color: white;
 }
 
 @media (max-width: 991px) {
@@ -3133,7 +3159,7 @@ ul {
   .subscribe_area h2 {
     font-size: 30px;
     line-height: 35px;
-    margin: 15px 0 30px;
+    margin: 15px 0 15px;
   }
 }
 
