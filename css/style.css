@@ -2844,7 +2844,7 @@ ul {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 68, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_feature_part.scss */
   .product_list .section_tittle span {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 
