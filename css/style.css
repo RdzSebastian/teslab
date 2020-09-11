@@ -2460,9 +2460,10 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
 .banner_part {
-  position: relative;
-  background-color: #ecfdff;
-  overflow: hidden;
+  background-image: url("../img/banner-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* line 7, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
@@ -3129,7 +3130,7 @@ ul {
 /*************** subscribe now **********************/
 /* line 2, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_subscribe_area.scss */
 .subscribe_area {
-  background-image: url("../img/contact.jpg");
+  background-image: url("../img/contact-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
