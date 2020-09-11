@@ -1,0 +1,16 @@
+1 M-Audio Fast Track Pro. Etapa de alimentación quemada.
+2 Controlador MIDI Midiplus BK490. Reemplazo de potes.
+3 Focusrite Scarlett 2i4. Etapa de preamplificación quemada.
+4 Motu 8 Pre. Cambio de integrado FireWire.
+5 Focusrite Liquid Saffire 56. Fuente de alimentación quemada.
+6 Behringer U-Phoria UMC404. Reemplazo de puerto USB.
+7 Behringer Xenyx 1002FX. Etapa de alimentación quemada.
+8 M-Audio Keystation. Contactos de carbón dañados.
+9 Presonus Digimax LT. Etapa de conversión dañada.
+10 Marshall Vs8080. Cambio de potes y reparación de fuente.
+11 Line 6 PodX3. Cambio de pulsadores y lubricación de potes.
+12 Allen & Heath. Cabmio de faders y mantenimiento general.
+13 Joyo Digital Delay. Reemplazo de integrado compander.
+14 Logitech G933. Fuente y encendido dañados.
+15 KRK Rookit 6. Etapa de alimentación dañada y ruido en potes.
+16 Presonus Studiolive 16.4.2. Limpieza y lubricación general.
