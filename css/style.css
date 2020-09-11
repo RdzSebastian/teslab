@@ -2389,7 +2389,10 @@ ul {
   @media (max-width: 991px) {
     /* line 273, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_menu.scss */
     .navbar-brand img {
-      padding-top: 18px;
+      max-width: 90px;
+      height: auto;
+      padding-top: 2px;
+
     }
   }
 
