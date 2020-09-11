@@ -2556,7 +2556,7 @@ ul {
   font-size: 15px;
   line-height: 1.8;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
   padding-right: 80px;
 }
 
@@ -2565,7 +2565,7 @@ ul {
   .banner_part .single_banner_slider .banner_text p {
     padding-right: 0;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 }
 
