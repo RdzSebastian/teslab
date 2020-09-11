@@ -3223,10 +3223,7 @@ ul {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
   border-left: 1px solid #edeff2;
-  width: 20%;
-  float: left;
   border-bottom: 1px solid #edeff2;
 }
 
@@ -3234,10 +3231,7 @@ ul {
   /* line 3, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_client_logo.scss */
   .client_logo .single_client_logo {
     height: 70px;
-    width: 25%;
     padding: 6px;
-    border-bottom: 0px solid transparent;
-    border-left: 0px solid transparent;
   }
 }
 
@@ -3255,16 +3249,6 @@ ul {
     height: 100px;
     padding: 10px;
   }
-}
-
-/* line 33, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_client_logo.scss */
-.client_logo .single_client_logo:nth-child(5n+1) {
-  border-left: 0px solid transparent;
-}
-
-/* line 36, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_client_logo.scss */
-.client_logo .single_client_logo:nth-child(n+6) {
-  border-bottom: 0px solid transparent;
 }
 
 /* line 51, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_client_logo.scss */
