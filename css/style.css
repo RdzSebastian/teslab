@@ -2564,7 +2564,7 @@ ul {
   /* line 51, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
   .banner_part .single_banner_slider .banner_text p {
     padding-right: 0;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
@@ -2837,7 +2837,7 @@ ul {
 
 @media (max-width: 576px){
   .product_list .section_tittle span {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 
