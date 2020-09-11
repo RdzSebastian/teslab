@@ -2466,29 +2466,6 @@ ul {
   background-size: cover;
 }
 
-.background-banner{
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(169, 169, 169, 0.6); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-}
-
-.banner_part .container {
-  padding-right: 0px;
-  padding-left: 0px;  
-  margin-right: 0px;
-  margin-left: 8rem;
-}
-
-@media (max-width: 767px) {
-  .banner_part .container {
-    padding-right: 0px;
-    padding-left: 0px;  
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
 /* line 7, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_banner.scss */
 .banner_part .single_banner_slider .banner_text {
   display: table;
