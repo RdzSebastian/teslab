@@ -7862,4 +7862,11 @@ h6 {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#Contacto{
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=style.css.map */
