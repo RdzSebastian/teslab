@@ -2684,7 +2684,11 @@ ul {
   }
 }
 
-/**************** hero part css end ****************/
+.revisiones {
+  font-weight: normal;
+  color: #950027;
+}
+/**************** banner part css end ****************/
 /**************** service_part css start ****************/
 /* line 3, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_feature_part.scss */
 .feature_part .single_feature_post_text {
