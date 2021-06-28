@@ -7873,4 +7873,19 @@ html {
 #Contacto{
   margin-bottom: 20px;
 }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:5%;
+    top:0;
+    height:100%;
+    width:90%;
+    position:absolute;
+}
 /*# sourceMappingURL=style.css.map */
